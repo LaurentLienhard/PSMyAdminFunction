@@ -9,6 +9,8 @@
    Get-IPrange -ip 192.168.8.2 -mask 255.255.255.0 
   .EXAMPLE 
    Get-IPrange -ip 192.168.8.3 -cidr 24 
+  .LINK
+	https://gallery.technet.microsoft.com/scriptcenter/List-the-IP-addresses-in-a-60c5bb6b
 #> 
  
 param 
