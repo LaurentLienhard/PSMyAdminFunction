@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-11-02" time="15:53:44">
+  <environment user="laure" machine-name="OTHALA" cwd="C:\Users\laure\Dropbox\01-DEV\Powershell\PSMyAdminFunction\Pester" user-domain="OTHALA" platform="Microsoft Windows 10 Entreprise Insider Preview|C:\WINDOWS|\Device\Harddisk0\Partition2" nunit-version="2.5.8.0" os-version="10.0.18272" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Success" success="True" time="0.9302" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="Get-Iprange" executed="True" result="Success" success="True" time="0.5923" asserts="0" description="Get-Iprange">
+        <results>
+          <test-case description="Not null" name="Get-Iprange.Not null" time="0.5025" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="first should be 192.168.0.0" name="Get-Iprange.first should be 192.168.0.0" time="0.0182" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="last should be 192.168.0.255" name="Get-Iprange.last should be 192.168.0.255" time="0.0172" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Contain 256" name="Get-Iprange.Should Contain 256" time="0.0543" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Module" executed="True" result="Success" success="True" time="0.3379" asserts="0" description="Module">
+        <results>
+          <test-case description="has a valid manifest" name="Module.has a valid manifest" time="0.1378" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid name in the manifest" name="Module.has a valid name in the manifest" time="0.0326" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid root module" name="Module.has a valid root module" time="0.0309" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid version in the manifest" name="Module.has a valid version in the manifest" time="0.0209" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid description" name="Module.has a valid description" time="0.0353" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid author" name="Module.has a valid author" time="0.0263" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid guid" name="Module.has a valid guid" time="0.0336" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="has a valid copyright" name="Module.has a valid copyright" time="0.0206" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

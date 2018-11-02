@@ -133,6 +133,6 @@ Invoke-PSDeploy -Path $Source -tag "DEV" -Force
 Write-Verbose "Pester Module"
 Invoke-Pester -Script $SourceFolder -CodeCoverage $DestinationModule
 
-Write-Verbose "ScriptAnalyser Module"
-Invoke-ScriptAnalyzer -Path $DestinationModule
+#Write-Verbose "ScriptAnalyser Module"
+#Invoke-ScriptAnalyzer -Path $DestinationModule
 
